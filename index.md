@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Ice Cream Machine Docs"
-  text: "Learn how to operate our range of machines."
-  tagline: My great project tagline
+  name: Example Docs
+  text: Ice Cream Machine
+  tagline: Learn how to operate our range of machines.
   actions:
     - theme: brand
       text: Markdown Examples
