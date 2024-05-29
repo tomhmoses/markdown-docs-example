@@ -1,7 +1,6 @@
-# image: node:12.13.0-alpine
+image: node:latest
 
 before_script:
-  - nvm use --lts
   - npm install
   - npm i -g firebase-tools
 
