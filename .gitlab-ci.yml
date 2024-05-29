@@ -1,12 +1,17 @@
-pages:
+image: node:12.13.0-alpine
+
+before_script:
+  - npm i -g firebase-tools
+  - npm install
+
+# https://gitlab.com/brendan-demo/labwork/homepage/-/blob/c4b1ddd04eb826091de11c4ac5506f4f4770b365/.gitlab-ci.yml
+prod-hosting:
   stage: deploy
-  before_script:
-    - npm install
   script:
     - npm run docs:build
-  artifacts:
-    paths:
-      - .vitepress/dist
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  environment: production
+    - firebase deploy --only hosting --token $FIREBASE_TOKEN
+  only:
+    - main
+  environment:
+    name: production
+    url: https://markdowndocs.web.app
