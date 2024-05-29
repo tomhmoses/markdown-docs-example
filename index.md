@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Temp TRS Docs"
-  text: "A VitePress Site"
+  name: "Ice Cream Machine Docs"
+  text: "Learn how to operate our range of machines."
   tagline: My great project tagline
   actions:
     - theme: brand

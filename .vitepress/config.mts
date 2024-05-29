@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Temp TRS Docs",
-  description: "A VitePress Site",
+  title: "Ice Cream Machine Docs",
+  description: "Learn how to operate our range of machines.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'youtube', link: 'https://youtu.be/dQw4w9WgXcQ' }
     ]
   }
 })
