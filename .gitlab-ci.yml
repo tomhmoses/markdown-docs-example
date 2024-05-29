@@ -2,6 +2,7 @@
 
 before_script:
   - npm install
+  - npm i -g firebase-tools
 
 # https://gitlab.com/brendan-demo/labwork/homepage/-/blob/c4b1ddd04eb826091de11c4ac5506f4f4770b365/.gitlab-ci.yml
 prod-hosting:
