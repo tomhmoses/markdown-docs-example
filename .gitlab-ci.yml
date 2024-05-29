@@ -8,7 +8,7 @@ before_script:
 prod-hosting:
   stage: deploy
   script:
-    - npm run docs:build
+    - npm run build
     - npx firebase deploy --only hosting --token $FIREBASE_TOKEN
   only:
     - main
