@@ -1,4 +1,4 @@
-# Pricing and Billing
+# Pricing and Billing <Badge type="tip" text="< V2.4" />
 
 **For Machines V2.1-V2.3**
 
