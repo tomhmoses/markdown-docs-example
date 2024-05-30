@@ -1,4 +1,4 @@
-# Ice Cream Machine V1 release notes
+# Ice Cream Machine v1 release notes
 
 ## v1.4.1 - 14th February 2020
 
