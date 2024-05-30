@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "🍦 Ice Cream Machine",
   description: "Learn how to operate our range of machines.",
+
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
