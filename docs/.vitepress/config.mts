@@ -9,8 +9,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Machine v2', link: '/v2/' },
-      { text: 'Machine v1', link: '/v1/' },
+      { text: 'Machine v2', link: '/v2/', activeMatch: '/v2/' },
+      { text: 'Machine v1', link: '/v1/', activeMatch: '/v1/'},
     ],
 
     sidebar: {
