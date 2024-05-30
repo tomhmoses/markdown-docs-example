@@ -1,6 +1,6 @@
 # Pricing and Billing <Badge type="tip" text="^V2.4" />
 
-> [!IMPORTANT] Machine V2.1-V2.3
+> [!TIP] Machine V2.1-V2.3
 > The Pricing and billing module had significant improvements in Machines V2.4+.
 >
 > If your machine is V2.1-V2.3 please read [this page](pricing-v2.1-v2.3) instead.
@@ -24,7 +24,7 @@ For custom billing setups, such as billing to a hotel room, see [here](pricing-c
 
 ### AI Powered Pricing during peak times <Badge type="tip" text="^V2.5" />
 
-> [!IMPORTANT] Machine V2.5+
+> [!TIP] Machine V2.5+
 > This feature is only available on Machines V2.5 and newer.
 
 1. From the Pricing menu, navigate to the.... you get the idea!
