@@ -50,6 +50,7 @@ export default defineConfig({
             { text: 'Cones not filling up'}, //, link: '/v1/help/two' }
           ]
         },
+        { text: 'Release Notes', link: '/v1/release-notes' }
       ],
       '/v2/': [
         {
@@ -76,6 +77,7 @@ export default defineConfig({
             { text: 'Broken 99 flakes'}, //, link: '/v2/help/two' }
           ]
         },
+        { text: 'Release Notes' }
       ]
     },
 
