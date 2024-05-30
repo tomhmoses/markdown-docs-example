@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Ice Cream Machine Docs",
+  title: "🍦 Ice Cream Machine",
   description: "Learn how to operate our range of machines.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
