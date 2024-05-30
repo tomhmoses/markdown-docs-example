@@ -14,7 +14,7 @@ Use the pricing configuration, with AI, to set pricing based on supply and deman
 3. Use the toggles to enable contactless and/or cash payments.
     - If both toggles are off, your machine enters *free vend* mode.
 
-For custom billing setups, such as billing to a hotel room, see [here]().
+For custom billing setups, such as billing to a hotel room, see [here](pricing-custom).
 
 ## Pricing
 
