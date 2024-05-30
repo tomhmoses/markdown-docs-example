@@ -1,13 +1,13 @@
-# Pricing and Billing <Badge type="tip" text="< V2.4" />
+# Pricing and Billing <Badge type="tip" text="< v2.4" />
 
-**For Machines V2.1-V2.3**
+**For Machines v2.1-V2.3**
 
-> [!TIP] Machine >= V2.4
-> The Pricing and billing module had significant improvements in Machines V2.4+.
+> [!TIP] Machine >= v2.4
+> The Pricing and billing module had significant improvements in Machines v2.4+.
 >
-> If your machine is V2.4 or newer please read [this page](pricing) instead.
+> If your machine is v2.4 or newer please read [this page](pricing) instead.
 
-Consider upgrading to a Machine V2.4 if you'd like to make the most of our new pricing configuration tool.
+Consider upgrading to a Machine v2.4 if you'd like to make the most of our new pricing configuration tool.
 
 ## Some content
 

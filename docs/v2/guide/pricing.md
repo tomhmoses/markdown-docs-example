@@ -1,9 +1,9 @@
-# Pricing and Billing <Badge type="tip" text="^V2.4" />
+# Pricing and Billing <Badge type="tip" text="^v2.4" />
 
-> [!TIP] Machine V2.1-V2.3
-> The Pricing and billing module had significant improvements in Machines V2.4+.
+> [!TIP] Machine v2.1-V2.3
+> The Pricing and billing module had significant improvements in Machines v2.4+.
 >
-> If your machine is V2.1-V2.3 please read [this page](pricing-v2.1-v2.3) instead.
+> If your machine is v2.1-V2.3 please read [this page](pricing-v2.1-v2.3) instead.
 
 Use the pricing configuration, with AI, to set pricing based on supply and demand!
 
@@ -22,9 +22,9 @@ For custom billing setups, such as billing to a hotel room, see [here](pricing-c
 2. Select Pricing
 3. Enter your desired base prices
 
-### AI Powered Pricing during peak times <Badge type="tip" text="^V2.5" />
+### AI Powered Pricing during peak times <Badge type="tip" text="^v2.5" />
 
-> [!TIP] Machine V2.5+
-> This feature is only available on Machines V2.5 and newer.
+> [!TIP] Machine v2.5+
+> This feature is only available on Machines v2.5 and newer.
 
 1. From the Pricing menu, navigate to the.... you get the idea!
