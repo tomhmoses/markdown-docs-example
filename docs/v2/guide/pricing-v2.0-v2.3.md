@@ -1,6 +1,6 @@
 # Pricing and Billing <Badge type="tip" text="< v2.4" />
 
-**For Machines v2.1-V2.3**
+**For Machines v2.0-V2.3**
 
 > [!TIP] Machine >= v2.4
 > The Pricing and billing module had significant improvements in Machines v2.4+.

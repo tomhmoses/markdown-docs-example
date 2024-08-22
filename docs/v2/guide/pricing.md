@@ -1,9 +1,9 @@
 # Pricing and Billing <Badge type="tip" text="^v2.4" />
 
-> [!TIP] Machine v2.1-V2.3
+> [!TIP] Machine v2.0-V2.3
 > The Pricing and billing module had significant improvements in Machines v2.4+.
 >
-> If your machine is v2.1-V2.3 please read [this page](pricing-v2.1-v2.3) instead.
+> If your machine is v2.0-V2.3 please read [this page](pricing-v2.0-v2.3) instead.
 
 Use the pricing configuration, with AI, to set pricing based on supply and demand!
 
