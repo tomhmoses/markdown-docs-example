@@ -12,8 +12,13 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Machine v2', link: '/v2/', activeMatch: '/v2/' },
-      { text: 'Machine v1', link: '/v1/', activeMatch: '/v1/'},
+      {
+        text: 'Version',
+        items: [
+          { text: 'Machine v2', link: '/v2/', activeMatch: '/v2/' },
+          { text: 'Machine v1', link: '/v1/', activeMatch: '/v1/' },
+        ]
+      }
     ],
 
     sidebar: {
@@ -31,13 +36,13 @@ export default defineConfig({
           text: 'Guide',
           items: [
             { text: 'Loading flavours', link: '/v1/guide/flavours' },
-            { text: 'Stacking cones'}, //, link: '/v1/guide/two' },
+            { text: 'Stacking cones' }, //, link: '/v1/guide/two' },
             {
               text: 'Installation',
               // link: '/v1/guide/installation/',
               items: [
-                { text: 'Step One'}, //, link: '/v1/guide/installation/one' },
-                { text: 'Step Two'}, //, link: '/v1/guide/installation/two' },
+                { text: 'Step One' }, //, link: '/v1/guide/installation/one' },
+                { text: 'Step Two' }, //, link: '/v1/guide/installation/two' },
               ]
             }
           ]
@@ -46,8 +51,8 @@ export default defineConfig({
           text: 'Troubleshooting',
           // link: '/v1/help/',
           items: [
-            { text: 'Runny ice cream'}, //, link: '/v1/help/one' },
-            { text: 'Cones not filling up'}, //, link: '/v1/help/two' }
+            { text: 'Runny ice cream' }, //, link: '/v1/help/one' },
+            { text: 'Cones not filling up' }, //, link: '/v1/help/two' }
           ]
         },
         { text: 'Release Notes', link: '/v1/release-notes' }
@@ -62,9 +67,9 @@ export default defineConfig({
               text: 'Installation',
               // link: '/v1/guide/installation/',
               items: [
-                { text: 'Step One'}, //, link: '/v2/guide/installation/one' },
-                { text: 'Step Two'}, //, link: '/v2/guide/installation/two' },
-                { text: 'Step Three'}, //, link: '/v2/guide/installation/three' },
+                { text: 'Step One' }, //, link: '/v2/guide/installation/one' },
+                { text: 'Step Two' }, //, link: '/v2/guide/installation/two' },
+                { text: 'Step Three' }, //, link: '/v2/guide/installation/three' },
               ]
             }
           ]
@@ -73,8 +78,8 @@ export default defineConfig({
           text: 'Troubleshooting',
           // link: '/v2/help/',
           items: [
-            { text: 'Double cones'}, //, link: '/v2/help/one' },
-            { text: 'Broken 99 flakes'}, //, link: '/v2/help/two' }
+            { text: 'Double cones' }, //, link: '/v2/help/one' },
+            { text: 'Broken 99 flakes' }, //, link: '/v2/help/two' }
           ]
         },
         { text: 'Release Notes' }
