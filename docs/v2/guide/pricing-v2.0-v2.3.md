@@ -7,7 +7,7 @@
 >
 > If your machine is v2.4 or newer please read [this page](pricing) instead.
 
-Consider upgrading to a Machine v2.4 if you'd like to make the most of our new pricing configuration tool.
+Please consider upgrading to a Machine v2.4 if you'd like to make the most of our new pricing configuration tool.
 
 ## Some content
 
