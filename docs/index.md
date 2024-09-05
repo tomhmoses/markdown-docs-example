@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: Example Docs
+  name: PreBilt Docs
   text: Ice Cream Machine
   tagline: Learn how to operate our range of machines.
   actions:
