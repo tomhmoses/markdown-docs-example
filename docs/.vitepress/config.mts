@@ -70,7 +70,7 @@ export default defineConfig({
           ]
          },
         { text: 'Technical Architecture', link: '/v4/technical-architecture' },
-        { text: 'Release Notes' }
+        { text: 'Release Notes', link: '/v4/release-notes' }
       ]
     },
 
