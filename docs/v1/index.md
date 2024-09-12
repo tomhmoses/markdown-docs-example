@@ -1,3 +1,7 @@
-# Machine v1
+---
+next: false
+---
 
-Our family favourite, the Machine v1 is the classic ice cream machine that can you know and love.
+# PreBilt v1
+
+To view the documentation for PreBilt v1, please contact us.

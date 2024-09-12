@@ -2,21 +2,24 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "🍦 Ice Cream Machine",
-  description: "Learn how to operate our range of machines.",
+  title: "PreBilt",
+  description: "Placeholder",
 
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/The Config Team C.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
       {
         text: 'Version',
         items: [
-          { text: 'Machine v2', link: '/v2/', activeMatch: '/v2/' },
-          { text: 'Machine v1', link: '/v1/', activeMatch: '/v1/' },
+          { text: 'PreBilt v4', link: '/v4/', activeMatch: '/v4/' },
+          { text: 'PreBilt v3', link: '/v3/', activeMatch: '/v3/' },
+          { text: 'PreBilt v2', link: '/v2/', activeMatch: '/v2/' },
+          { text: 'PreBilt v1', link: '/v1/', activeMatch: '/v1/' },
         ]
       }
     ],
@@ -32,62 +35,47 @@ export default defineConfig({
         }
       ],
       '/v1/': [
-        {
-          text: 'Guide',
-          items: [
-            { text: 'Loading flavours', link: '/v1/guide/flavours' },
-            { text: 'Stacking cones' }, //, link: '/v1/guide/two' },
-            {
-              text: 'Installation',
-              // link: '/v1/guide/installation/',
-              items: [
-                { text: 'Step One' }, //, link: '/v1/guide/installation/one' },
-                { text: 'Step Two' }, //, link: '/v1/guide/installation/two' },
-              ]
-            }
-          ]
-        },
-        {
-          text: 'Troubleshooting',
-          // link: '/v1/help/',
-          items: [
-            { text: 'Runny ice cream' }, //, link: '/v1/help/one' },
-            { text: 'Cones not filling up' }, //, link: '/v1/help/two' }
-          ]
-        },
-        { text: 'Release Notes', link: '/v1/release-notes' }
+        // { text: 'Release Notes', link: '/v1/release-notes' }
       ],
       '/v2/': [
+        // { text: 'Release Notes', link: '/v2/release-notes' }
+      ],
+      '/v3/': [
+        // { text: 'Release Notes', link: '/v3/release-notes' }
+      ],
+      '/v4/': [
         {
-          text: 'Guide',
+          text: 'Installation Guide', link: '/v4/guide/installation',
+          collapsed: true,
           items: [
-            { text: 'Flavours management', link: '/v2/guide/flavours' },
-            { text: 'Pricing and billing', link: '/v2/guide/pricing' },
-            {
-              text: 'Installation',
-              // link: '/v1/guide/installation/',
-              items: [
-                { text: 'Step One' }, //, link: '/v2/guide/installation/one' },
-                { text: 'Step Two' }, //, link: '/v2/guide/installation/two' },
-                { text: 'Step Three' }, //, link: '/v2/guide/installation/three' },
-              ]
-            }
+            { text: 'Step One' }, //, link: '/v2/guide/installation/one' },
+            { text: 'Step Two' }, //, link: '/v2/guide/installation/two' },
+            { text: 'Step Three' }, //, link: '/v2/guide/installation/three' },
           ]
         },
-        {
-          text: 'Troubleshooting',
-          // link: '/v2/help/',
+        { text: 'Configuration Guide', link: '/v4/guide/config',
+          collapsed: true,
           items: [
-            { text: 'Double cones' }, //, link: '/v2/help/one' },
-            { text: 'Broken 99 flakes' }, //, link: '/v2/help/two' }
+            { text: 'Step One' }, //, link: '/v4/guide/config/one' },
+            { text: 'Step Two' }, //, link: '/v4/guide/config/two' },
+            { text: 'Step Three' }, //, link: '/v4/guide/config/three' },
           ]
-        },
-        { text: 'Release Notes' }
+         },
+        { text: 'User Guide', link: '/v4/guide/user',
+          collapsed: true,
+          items: [
+            { text: 'Step One' }, //, link: '/v4/guide/user/one' },
+            { text: 'Step Two' }, //, link: '/v4/guide/user/two' },
+            { text: 'Step Three' }, //, link: '/v4/guide/user/three' },
+          ]
+         },
+        { text: 'Technical Architecture', link: '/v4/technical-architecture' },
+        { text: 'Release Notes', link: '/v4/release-notes' }
       ]
     },
 
-    socialLinks: [
-      { icon: 'youtube', link: 'https://youtu.be/dQw4w9WgXcQ' }
-    ]
+    // socialLinks: [
+    //   { icon: 'linkedin', link: 'https://www.linkedin.com/company/the-config-team-ltd/' }
+    // ]
   }
 })
