@@ -1,7 +1,3 @@
----
-next: false
----
+# Machine v2
 
-# PreBilt v2
-
-To view the documentation for PreBilt v2, please contact us.
+Our latest offering in the ice cream machine market gives you the power to serve more scoops per hour!
