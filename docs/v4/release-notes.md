@@ -17,7 +17,7 @@
 - Capacitor: Build Apps to run against SAP System URL to avoid CORS 
 - Cleanup and extension of settings.json parameters 
 - Image plugin (display & capture) re-write to avoid Capacitor/Cordova 
-- Extension Point changes: 
+- Extension Point change: 
   - `handleParsedResponse`: new parameter `rawSAPData`
   - new exit for `SAPStandardScreen` Extensions: `adjustControlAfterCreation`
 - Library Updates 
