@@ -14,4 +14,4 @@ prod-hosting:
     - main
   environment:
     name: production
-    url: https://prebilt-docs.web.app
+    url: https://markdowndocs.web.app
