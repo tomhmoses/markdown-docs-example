@@ -1,3 +1,7 @@
+---
+title: Sample Page
+---
+
 **Sample page:**
 
 # Markdown Extension Examples

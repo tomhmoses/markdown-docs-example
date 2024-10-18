@@ -1,3 +1,7 @@
+---
+title: Pricing and Billing
+---
+
 # Pricing and Billing <Badge type="tip" text="^v2.4" />
 
 > [!TIP] Machine v2.0-V2.3

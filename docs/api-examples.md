@@ -1,5 +1,6 @@
 ---
 outline: deep
+title: API Examples
 ---
 
 **Sample page:**

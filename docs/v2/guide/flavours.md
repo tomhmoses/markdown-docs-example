@@ -1,3 +1,7 @@
+---
+title: Flavour Management
+---
+
 # Flavour Management
 
 Your Machine v2 can handle 12 flavours of ice cream, including up to 3 flavours of sorbet.
